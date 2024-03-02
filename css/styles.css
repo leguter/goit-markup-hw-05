@@ -395,7 +395,7 @@ font-weight: 500;
 }
 .container-footer {
     display:flex;
-    align-items:baseline;
+    align-items: baseline;
 }
 .advice {
     font-size: 16px;
@@ -468,4 +468,52 @@ font-family: "Raleway", sans-serif;
 .logo-footer {
     margin-bottom: 16px;
     display: inline-block;
+}
+.form-footer {
+    
+    margin-left:80px;
+display: flex;
+gap:24px;
+}
+.label-footer {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        
+       display: flex;
+       flex-direction: column;
+       gap:16px;;
+            
+}
+.input-mail {
+    background-color: inherit;
+    border: 1px solid #fff;
+        border-radius: 4px;
+        width: 264px;
+        height: 40px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.input-mail::placeholder {
+    font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        color: #fff;
+        padding-left:16px;
+        padding-top:8px;
+        padding-bottom:8px;
+}
+.btn-footer {
+    background-color: #4d5ae5;
+    border-radius: 4px;
+        padding: 8px 24px;
+        width: 165px;
+        height: 40px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            text-align: center;
+            color: #fff;
 }
