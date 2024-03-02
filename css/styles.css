@@ -470,7 +470,6 @@ font-family: "Raleway", sans-serif;
     display: inline-block;
 }
 .form-footer {
-    
     margin-left:80px;
 display: flex;
 gap:24px;
@@ -508,7 +507,7 @@ gap:24px;
     background-color: #4d5ae5;
     border-radius: 4px;
         padding: 8px 24px;
-        width: 165px;
+        min-width: 165px;
         height: 40px;
             font-weight: 500;
             font-size: 16px;
@@ -516,11 +515,10 @@ gap:24px;
             letter-spacing: 0.04em;
             text-align: center;
             color: #fff;
-            position: relative;
+            display:flex;
+            justify-content: space-between;
+            border:none;
 }
 .icon-footer-svg {
-    position: absolute;
-    padding-left:16px;
-    padding-right: 24px;
-
+   margin-left: 16px;
 }
