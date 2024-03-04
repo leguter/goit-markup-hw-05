@@ -575,6 +575,7 @@ align-items:end;
     border-radius: 4px;
     border-radius: 100%;
         stroke: rgba(0, 0, 0, 0.1);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-modal-close {
     border-radius: 50%;
@@ -630,7 +631,7 @@ align-items:end;
         left: 16px;
         top: 50%;
         transform: translateY(-50%);
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
 }
 
 .input-modal {
