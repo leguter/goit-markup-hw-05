@@ -565,6 +565,9 @@ align-items:end;
 .wrapper-div-modal {
     margin-bottom: 8px;
 }
+.wrapper-div-comment-modal {
+    margin-bottom:16px;
+}
 .wrapper-div-comment {
     margin-bottom: 24px;
 }
