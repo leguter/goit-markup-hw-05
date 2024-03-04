@@ -566,7 +566,7 @@ align-items:end;
     margin-bottom: 8px;
 }
 .wrapper-div-comment {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 .icon-close-modal {
     border-radius: 4px;
@@ -687,12 +687,13 @@ border: 1px solid rgba(46, 47, 66, 0.4);
     align-items: center;
     fill: transparent;
     margin-right: 8px;
-
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-checkbox:checked + .privacy-policy
 .custom-checkbox {
 background-color:#404bbf;
 fill:#F4F4FD;
+border:none;
 }
 .div-modal-checkbox {
     width:316px;
@@ -716,4 +717,27 @@ fill:#F4F4FD;
         text-decoration: underline;
         text-decoration-skip-ink: none;
         color: #4d5ae5;
+}
+.send-btn-modal {
+    display:block;
+    border-radius: 4px;
+        padding: 16px 32px;
+        min-width: 169px;
+        height: 56px;
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            text-align: center;
+            color: #fff;
+            cursor: pointer;
+            background: #4d5ae5;
+            border:none;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            margin-left:95px;
+            margin-right: 96px;
+            margin-bottom: 24px;
+}
+.send-btn-modal:hover {
+    background: #404bbf;
 }
